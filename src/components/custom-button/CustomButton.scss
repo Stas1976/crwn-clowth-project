@@ -19,4 +19,13 @@
     color: black;
     border: 1px solid black;
   }
+  &.google-sign-in {
+    background-color: #dd4b39;
+    color: white;
+
+    &:hover {
+      background-color: #dd4b45;
+      border: none;
+    }
+  }
 }
