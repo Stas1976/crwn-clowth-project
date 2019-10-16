@@ -58,7 +58,6 @@ class App extends React.Component {
 }
 
 const mapStateToProps = ({ userReducer }) => {
-  console.log(userReducer);
   return {
     currentUser: userReducer.currentUser
   };
