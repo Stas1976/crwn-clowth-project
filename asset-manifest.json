@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/crwn-clowth-project/static/css/main.c64619f7.chunk.css",
-    "main.js": "/crwn-clowth-project/static/js/main.d30ec451.chunk.js",
-    "main.js.map": "/crwn-clowth-project/static/js/main.d30ec451.chunk.js.map",
-    "runtime~main.js": "/crwn-clowth-project/static/js/runtime~main.91665913.js",
-    "runtime~main.js.map": "/crwn-clowth-project/static/js/runtime~main.91665913.js.map",
-    "static/js/2.743e7d1f.chunk.js": "/crwn-clowth-project/static/js/2.743e7d1f.chunk.js",
-    "static/js/2.743e7d1f.chunk.js.map": "/crwn-clowth-project/static/js/2.743e7d1f.chunk.js.map",
-    "index.html": "/crwn-clowth-project/index.html",
-    "precache-manifest.6a2b5917e5c61310f85cd90cd091a104.js": "/crwn-clowth-project/precache-manifest.6a2b5917e5c61310f85cd90cd091a104.js",
-    "service-worker.js": "/crwn-clowth-project/service-worker.js",
-    "static/css/main.c64619f7.chunk.css.map": "/crwn-clowth-project/static/css/main.c64619f7.chunk.css.map",
-    "static/media/crown.ed28accb.svg": "/crwn-clowth-project/static/media/crown.ed28accb.svg",
-    "static/media/shopping-bag.30f07071.svg": "/crwn-clowth-project/static/media/shopping-bag.30f07071.svg"
+    "main.css": "/crwn-clowth/static/css/main.c64619f7.chunk.css",
+    "main.js": "/crwn-clowth/static/js/main.d30ec451.chunk.js",
+    "main.js.map": "/crwn-clowth/static/js/main.d30ec451.chunk.js.map",
+    "runtime~main.js": "/crwn-clowth/static/js/runtime~main.f02218ad.js",
+    "runtime~main.js.map": "/crwn-clowth/static/js/runtime~main.f02218ad.js.map",
+    "static/js/2.2e90ca4f.chunk.js": "/crwn-clowth/static/js/2.2e90ca4f.chunk.js",
+    "static/js/2.2e90ca4f.chunk.js.map": "/crwn-clowth/static/js/2.2e90ca4f.chunk.js.map",
+    "index.html": "/crwn-clowth/index.html",
+    "precache-manifest.3a12fdf55ec89e727139334b68738e6a.js": "/crwn-clowth/precache-manifest.3a12fdf55ec89e727139334b68738e6a.js",
+    "service-worker.js": "/crwn-clowth/service-worker.js",
+    "static/css/main.c64619f7.chunk.css.map": "/crwn-clowth/static/css/main.c64619f7.chunk.css.map",
+    "static/media/crown.ed28accb.svg": "/crwn-clowth/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/crwn-clowth/static/media/shopping-bag.30f07071.svg"
   }
 }
