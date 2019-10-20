@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/crw-project/static/css/main.065bf2cc.chunk.css",
-    "main.js": "/crw-project/static/js/main.d30ec451.chunk.js",
-    "main.js.map": "/crw-project/static/js/main.d30ec451.chunk.js.map",
-    "runtime~main.js": "/crw-project/static/js/runtime~main.7e93e5df.js",
-    "runtime~main.js.map": "/crw-project/static/js/runtime~main.7e93e5df.js.map",
-    "static/js/2.409c4b3e.chunk.js": "/crw-project/static/js/2.409c4b3e.chunk.js",
-    "static/js/2.409c4b3e.chunk.js.map": "/crw-project/static/js/2.409c4b3e.chunk.js.map",
-    "index.html": "/crw-project/index.html",
-    "precache-manifest.833a4f59d0ec75140e3c4f97cc7ec1e0.js": "/crw-project/precache-manifest.833a4f59d0ec75140e3c4f97cc7ec1e0.js",
-    "service-worker.js": "/crw-project/service-worker.js",
-    "static/css/main.065bf2cc.chunk.css.map": "/crw-project/static/css/main.065bf2cc.chunk.css.map",
-    "static/media/crown.ed28accb.svg": "/crw-project/static/media/crown.ed28accb.svg",
-    "static/media/shopping-bag.30f07071.svg": "/crw-project/static/media/shopping-bag.30f07071.svg"
+    "main.css": "/crwn-clowth-project/static/css/main.c64619f7.chunk.css",
+    "main.js": "/crwn-clowth-project/static/js/main.d30ec451.chunk.js",
+    "main.js.map": "/crwn-clowth-project/static/js/main.d30ec451.chunk.js.map",
+    "runtime~main.js": "/crwn-clowth-project/static/js/runtime~main.91665913.js",
+    "runtime~main.js.map": "/crwn-clowth-project/static/js/runtime~main.91665913.js.map",
+    "static/js/2.743e7d1f.chunk.js": "/crwn-clowth-project/static/js/2.743e7d1f.chunk.js",
+    "static/js/2.743e7d1f.chunk.js.map": "/crwn-clowth-project/static/js/2.743e7d1f.chunk.js.map",
+    "index.html": "/crwn-clowth-project/index.html",
+    "precache-manifest.6a2b5917e5c61310f85cd90cd091a104.js": "/crwn-clowth-project/precache-manifest.6a2b5917e5c61310f85cd90cd091a104.js",
+    "service-worker.js": "/crwn-clowth-project/service-worker.js",
+    "static/css/main.c64619f7.chunk.css.map": "/crwn-clowth-project/static/css/main.c64619f7.chunk.css.map",
+    "static/media/crown.ed28accb.svg": "/crwn-clowth-project/static/media/crown.ed28accb.svg",
+    "static/media/shopping-bag.30f07071.svg": "/crwn-clowth-project/static/media/shopping-bag.30f07071.svg"
   }
 }
