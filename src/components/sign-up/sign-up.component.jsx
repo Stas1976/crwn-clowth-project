@@ -6,7 +6,7 @@ import {
   createUserProfileDocument
 } from '../../firebase/firebase.utility';
 
-import './sign-up.style.scss';
+import { SignUpContainer, SignUpTitle } from './sign-up.style';
 
 class SignUp extends Component {
   state = {
@@ -51,10 +51,10 @@ class SignUp extends Component {
   render() {
     const { displayName, email, password, confirmPassword } = this.state;
     return (
-      <div className="sign-up">
-        <h2 className="title">I do not have an account</h2>
+      <SignUpContainer>
+        <SignUpTitle>I do not have a account</SignUpTitle>
         <span>Sign up with your email and password</span>
-        <form onSubmit={this.handleSubmit} className="sign-up-form">
+        <form className="sign-up-form" onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
             name="displayName"
@@ -68,7 +68,7 @@ class SignUp extends Component {
             name="email"
             value={email}
             onChange={this.handleChange}
-            label="Email:"
+            label="Email"
             required
           />
           <FormInput
@@ -76,7 +76,7 @@ class SignUp extends Component {
             name="password"
             value={password}
             onChange={this.handleChange}
-            label="Password:"
+            label="Password"
             required
           />
           <FormInput
@@ -84,12 +84,12 @@ class SignUp extends Component {
             name="confirmPassword"
             value={confirmPassword}
             onChange={this.handleChange}
-            label="Confirm Password:"
+            label="Confirm Password"
             required
           />
-          <CustomButton type="submit">Sign Up</CustomButton>
+          <CustomButton type="submit">SIGN UP</CustomButton>
         </form>
-      </div>
+      </SignUpContainer>
     );
   }
 }
