@@ -12,6 +12,8 @@ const config = {
   appId: '1:314901659165:web:476a43de695dc475'
 };
 
+firebase.initializeApp(config);
+
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
@@ -29,11 +31,8 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
         createAt,
         ...additionalData
       });
-    } catch (error) {
-      console.log('error ceating user', error.message);
-    }
+    } catch (error) {}
   }
-
   return userRef;
 };
 
@@ -42,17 +41,14 @@ export const addCollectionAndDocuments = async (
   objectsToAdd
 ) => {
   const collectionRef = firestore.collection(collectionKey);
-
   const batch = firestore.batch();
+
   objectsToAdd.forEach(obj => {
     const newDocRef = collectionRef.doc();
     batch.set(newDocRef, obj);
   });
-
   return await batch.commit();
 };
-
-firebase.initializeApp(config);
 
 export const convertCollectionsSnapshotToMap = collections => {
   const transformedCollection = collections.docs.map(doc => {
@@ -65,8 +61,26 @@ export const convertCollectionsSnapshotToMap = collections => {
       items
     };
   });
+
   console.log(transformedCollection);
+  // return transformedCollection.reduce((accumulator, collection) => {
+  //   accumulator[collection.title.toLowerCase()] = collection;
+  //   return accumulator;
+  // }, {});
 };
+
+// export const convertCollectionsSnapshotToMap = collections => {
+//   const transformedCollection = collections.docs.map(doc => {
+//     const { title, items } = doc.data();
+
+//     return {
+//       routeName: encodeURI(title.toLowerCase()),
+//       id: doc.id,
+//       title,
+//       items
+//     };
+//   });
+// };
 
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();

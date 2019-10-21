@@ -11,9 +11,8 @@ import SignInAndSignUp from './pages/sign-in-and-sign-up/sign-in-and-sign-up.com
 import Checkout from './pages/checkout/checkout.page';
 import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utility';
-import { setCurrentUser } from './redux/user/user.actions';
+import * as action from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selector';
-
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
@@ -41,6 +40,7 @@ class App extends React.Component {
   }
 
   render() {
+    const { currentUser } = this.props;
     return (
       <div>
         <Header />
@@ -52,7 +52,7 @@ class App extends React.Component {
             exact
             path="/signin"
             render={() =>
-              this.props.currentUser ? <Redirect to="/" /> : <SignInAndSignUp />
+              currentUser ? <Redirect to="/" /> : <SignInAndSignUp />
             }
           />
         </Switch>
@@ -65,11 +65,7 @@ const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser
 });
 
-const mapDispatchToProps = dispatch => ({
-  setCurrentUser: user => dispatch(setCurrentUser(user))
-});
-
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  action
 )(App);
