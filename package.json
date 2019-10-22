@@ -2,7 +2,6 @@
   "name": "crwn-clowthing-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Stas1976.github.io/crwn-clowth",
   "dependencies": {
     "firebase": "^6.3.0",
     "gh-pages": "^2.1.1",
@@ -24,7 +23,6 @@
     "babel-jest": "24.7.1"
   },
   "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
