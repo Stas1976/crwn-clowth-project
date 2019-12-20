@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import * as action from '../../redux/shop/shop.action';
 
-import { selectIsCollectionsLoaded } from '../../redux/shop/shop.selector';
+// import { selectIsCollectionsLoaded } from '../../redux/shop/shop.selector';
 
 import CollectionOverviewContainer from '../../components/collection-overview/collection-overview.container';
 import CollectionPageContainer from '../collection/collection.container';
